@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Martyshko Mariia – CV</title>
+    
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #e3f2fd, #fce4ec);
+            color: #333;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background-color: #ffffff;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #1a237e;
+        }
+
+        section {
+            margin-top: 35px;
+        }
+
+        section h2 {
+            font-size: 24px;
+            color: #283593;
+            margin-bottom: 12px;
+            border-left: 5px solid #3949ab;
+            padding-left: 12px;
+        }
+
+        section p {
+            line-height: 1.7;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            padding-left: 25px;
+            margin-bottom: 8px;
+            position: relative;
+        }
+
+        ul li::before {
+            content: "✔";
+            position: absolute;
+            left: 0;
+            color: #3949ab;
+            font-weight: bold;
+        }
+
+        a {
+            color: #1565c0;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            margin-top: 15px;
+            border-radius: 50%;
+            width: 200px;      
+            height: 200px;      
+            object-fit: cover;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                margin: 20px;
+                padding: 25px;
+            }
+
+            header h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Martyshko Mariia 66766</h1>
+</header>
+
+<main>
+
+    <section>
+        <h2>Kontakt</h2>
+        <p>Miasto: Warszawa</p>
+        <p>
+            E-mail:
+            <a href="mailto:mmartys1@stu.vistula.edu.pl">mmartys1@stu.vistula.edu.pl</a>
+        </p>
+        <p>
+            Telefon:
+            <a href="tel:+48795031143">+48 795 031 143</a>
+        </p>
+        <p>
+            <a href="https://github.com/MariiaMartyshko66766" 
+                target="_blank"
+                rel="noopener noreferrer">
+                GitHub
+            </a>
+        </p>
+        <p>
+            <a href="https://www.linkedin.com/in/маша-undefined-5136213b2/"
+               target="_blank"
+               rel="noopener noreferrer">
+                LinkedIn
+            </a>
+        </p>
+    </section>
+
+    <section>
+        <h2>O mnie</h2>
+        <p>
+            Jestem studentką zainteresowaną tworzeniem stron internetowych.
+            Uczę się HTML, CSS oraz podstaw JavaScript.
+        </p>
+        <img src="photo.jpg"
+             alt="Zdjęcie Martyshko Mariia">
+    </section>
+
+    <section>
+        <h2>Umiejętności</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Podstawy JavaScript</li>
+            <li>Git</li>
+            <li>GitHub</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Doświadczenie</h2>
+
+        <article>
+            <h3>Projekt studencki – strona CV</h3>
+            <p>Tworzenie strony CV w HTML zgodnie z wymaganiami technicznymi.</p>
+        </article>
+
+        <article>
+            <h3>Ćwiczenia laboratoryjne</h3>
+            <p>Praca z Git i GitHub w środowisku Visual Studio Code.</p>
+        </article>
+
+    </section>
+
+    <section>
+        <h2>Edukacja</h2>
+        <p>Studia wyższe – kierunek informatyczny</p>
+    </section>
+
+    <section>
+        <h2>Projekty</h2>
+        <ul>
+            <li>Strona CV w HTML</li>
+            <li>Repozytoria edukacyjne na GitHub</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Martyshko Mariia</p>
+</footer>
+
+</body>
+</html>
